@@ -1,5 +1,6 @@
 :root {
   --primary: #00b6f0;
+  --secondary: #f3cd03;
   --light: #fff;
   --dark-text: #20262a;
 }
@@ -73,7 +74,7 @@
 }
 
 .container-button-2 button {
-  padding: 20px 46px;
+  padding: 15px 46px;
   border: none;
   border-radius: 85px;
   font-size: 18px;
@@ -87,6 +88,7 @@
 .container-button-2 button:last-child {
   background-color: var(--light);
   color: var(--dark-text);
+  border: 2px solid var(--primary);
 }
 
 .container-image {
@@ -97,4 +99,37 @@
 .container-image img {
   height: auto;
   width: 100%;
+}
+
+.hero-2 {
+  padding: 64px 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.container-section {
+  width: 634px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.container-section h2 {
+  color: var(--secondary);
+  font-size: 36px;
+  font-weight: 450;
+  line-height: 42px;
+}
+
+.container-section h1 {
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 65px;
+}
+
+.container-section p {
+  font-size: 24px;
+  line-height: 38px;
+  text-align: center;
 }
