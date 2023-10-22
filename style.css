@@ -133,3 +133,49 @@
   line-height: 38px;
   text-align: center;
 }
+
+.feature {
+  padding: 100px auto;
+}
+
+.container-feature {
+  width: 1045px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.container-text {
+  width: 460px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 10px;
+  color: var(--dark-text);
+}
+
+.container-text h1 {
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: 450;
+}
+
+.container-text p {
+  font-size: 20px;
+  line-height: 38px;
+}
+
+.container-text a {
+  text-decoration: none;
+  color: var(--primary);
+}
+
+.container-image-1 {
+  width: 516px;
+  padding: 10px;
+}
+
+.container-image-1 img {
+  width: 100%;
+}
